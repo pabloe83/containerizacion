@@ -1,4 +1,4 @@
-package com.eazybytes.accounts;
+package com.eazybytes.accounts.dto;
 
 import com.eazybytes.accounts.model.Accounts;
 import lombok.Data;

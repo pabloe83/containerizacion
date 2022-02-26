@@ -3,7 +3,7 @@
  */
 package com.eazybytes.accounts.controller;
 
-import com.eazybytes.accounts.AccountsDto;
+import com.eazybytes.accounts.dto.AccountsDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
