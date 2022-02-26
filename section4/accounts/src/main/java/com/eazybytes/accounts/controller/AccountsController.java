@@ -29,9 +29,8 @@ public class AccountsController {
 
 		Accounts accounts = accountsRepository.findByCustomerId(customer.getCustomerId());
 		AccountsDto accountsDto = new AccountsDto();
-		accountsDto.convertToDto(accounts);
-
 		if (accounts != null) {
+			accountsDto.convertToDto(accounts);
 			return accountsDto;
 		} else {
 			return null;
